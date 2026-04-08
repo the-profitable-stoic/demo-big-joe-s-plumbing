@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Big Joe's Plumbing",
+    "phone": "+15592647089",
+    "category": "plumber",
+    "city": "Fresno",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Fresno's Plumbing Problems? Solved.",
+      "heroSubline": "Big Joe's Plumbing delivers expert solutions, fast. We tackle any plumbing challenge with experience and grit, guaranteed.",
+      "aboutTitle": "Decades of Fresno Plumbing Expertise",
+      "aboutText": [
+        "Big Joe's Plumbing started with a simple mission: provide honest, reliable plumbing services to our Fresno neighbors. Joe himself, a third-generation plumber, believed in treating every customer like family.",
+        "We're not just pipe fitters; we're problem solvers. From leaky faucets to full repipes, we approach every job with meticulous care and a commitment to doing it right the first time. Our experienced team uses proven techniques and quality materials.",
+        "Fresno is our home. We're committed to supporting local charities and organizations, and we always strive to minimize our environmental impact. We're proud to keep Fresno flowing smoothly."
+      ],
+      "valueProps": [
+        {
+          "title": "Rapid Response",
+          "description": "Plumbing emergencies don't wait, and neither do we. Expect prompt, reliable service, day or night."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprises. We provide clear, detailed estimates before any work begins."
+        },
+        {
+          "title": "Expert Technicians",
+          "description": "Our plumbers are licensed, insured, and continuously trained to handle the latest plumbing technologies."
+        },
+        {
+          "title": "Guaranteed Work",
+          "description": "We stand behind every repair and installation. Your satisfaction is our top priority."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Plumbing Estimate",
+      "ctaSubline": "Call Big Joe's Plumbing today for fast, reliable service. We're ready to tackle any plumbing challenge in Fresno."
+    },
+    "services": [
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Fast, effective drain cleaning services to keep your pipes flowing freely.",
+        "description": "Clogged drains are a common nuisance in Fresno homes, especially with our hard water and older plumbing infrastructure. Big Joe's Plumbing offers comprehensive drain cleaning services to eliminate blockages and restore proper flow. We utilize a variety of methods, including snaking, hydro-jetting, and enzymatic cleaners, to address any type of clog, from hair and grease to mineral buildup and tree roots. Our experienced plumbers will diagnose the cause of your drain issues and recommend the most effective solution. We'll clear your drains quickly and efficiently, minimizing disruption to your daily routine. Preventative maintenance is key to avoiding future blockages. We can advise you on best practices for drain care and recommend regular cleaning schedules to keep your plumbing system running smoothly, even during Fresno's hot summers when water usage spikes.",
+        "process": [
+          "Step 1: Diagnose the Clog: We use cameras to pinpoint the exact location and cause of the blockage.",
+          "Step 2: Select the Appropriate Method: We choose the best cleaning technique based on the clog's severity and location.",
+          "Step 3: Clear the Drain: We use snakes, hydro-jetting, or enzymatic cleaners to remove the blockage.",
+          "Step 4: Inspect and Test: We ensure the drain is completely clear and flowing freely."
+        ],
+        "benefits": [
+          "Eliminate clogs and restore proper drainage",
+          "Prevent future blockages with preventative maintenance",
+          "Protect your pipes from damage caused by buildup",
+          "Improve the overall efficiency of your plumbing system"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "We recommend drain cleaning every 1-2 years, depending on your household's usage and the age of your plumbing. Homes with older pipes or frequent clogs may benefit from more frequent cleaning."
+          },
+          {
+            "question": "What is hydro-jetting?",
+            "answer": "Hydro-jetting is a powerful drain cleaning method that uses high-pressure water to blast away stubborn clogs and buildup from the inside of your pipes. It's an effective solution for clearing grease, mineral deposits, and tree roots."
+          },
+          {
+            "question": "Are chemical drain cleaners safe to use?",
+            "answer": "We strongly advise against using chemical drain cleaners. They can corrode your pipes and pose a risk to your health and the environment. Professional drain cleaning is a much safer and more effective alternative."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair & Installation",
+        "shortDescription": "Expert water heater services for reliable hot water in your home.",
+        "description": "A malfunctioning water heater can be a major inconvenience, especially during Fresno's cooler winter months. Big Joe's Plumbing provides comprehensive water heater repair and installation services to ensure you have a reliable source of hot water. Whether you're dealing with a leaky tank, inconsistent temperatures, or a complete system failure, our experienced plumbers can diagnose the problem and recommend the most appropriate solution. We work on all types of water heaters, including traditional tank models, tankless systems, and heat pump water heaters. We also offer preventative maintenance services to extend the life of your water heater and prevent costly repairs. If your water heater is old or inefficient, we can help you select and install a new, energy-efficient model that meets your needs and budget. We'll handle the entire installation process, ensuring that your new water heater is properly connected and functioning safely.",
+        "process": [
+          "Step 1: Diagnose the Problem: We thoroughly inspect your water heater to identify the cause of the issue.",
+          "Step 2: Provide a Detailed Estimate: We offer clear, upfront pricing for all repair and installation services.",
+          "Step 3: Perform the Repair or Installation: We use quality parts and proven techniques to ensure lasting results.",
+          "Step 4: Test and Verify: We ensure your water heater is functioning properly and safely before we leave."
+        ],
+        "benefits": [
+          "Restore hot water quickly and efficiently",
+          "Extend the life of your water heater with preventative maintenance",
+          "Improve energy efficiency and lower your utility bills",
+          "Ensure safe and reliable hot water for your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "A traditional tank water heater typically lasts 8-12 years, while a tankless water heater can last 20 years or more. Regular maintenance can help extend the lifespan of your water heater."
+          },
+          {
+            "question": "What are the signs that my water heater needs repair?",
+            "answer": "Common signs include leaking, rusty water, inconsistent temperatures, strange noises, and a lack of hot water."
+          },
+          {
+            "question": "Is it better to repair or replace my water heater?",
+            "answer": "If your water heater is old or requires frequent repairs, replacement is often the more cost-effective option. We can help you determine the best course of action based on your individual situation."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Advanced leak detection services to protect your home from water damage.",
+        "description": "Hidden leaks can cause significant damage to your Fresno home, leading to mold growth, structural issues, and high water bills. Big Joe's Plumbing utilizes advanced leak detection technology to locate hidden leaks quickly and accurately. We use acoustic listening devices, thermal imaging cameras, and other specialized equipment to pinpoint the source of leaks behind walls, under floors, and in underground pipes. Our experienced plumbers will assess the damage and recommend the most effective repair solutions. We'll work efficiently to minimize disruption to your home and prevent further damage. Early leak detection is crucial to preventing costly repairs. If you suspect a leak, don't hesitate to call Big Joe's Plumbing. We'll provide a thorough inspection and accurate diagnosis to protect your home from water damage, especially important in older Fresno homes with aging plumbing.",
+        "process": [
+          "Step 1: Conduct a Thorough Inspection: We examine your property for signs of leaks, such as water stains, mold growth, and damp spots.",
+          "Step 2: Utilize Advanced Technology: We use acoustic listening devices and thermal imaging cameras to locate hidden leaks.",
+          "Step 3: Pinpoint the Source of the Leak: We accurately identify the location of the leak and assess the extent of the damage.",
+          "Step 4: Recommend Repair Solutions: We provide a detailed plan for repairing the leak and preventing future issues."
+        ],
+        "benefits": [
+          "Prevent water damage and mold growth",
+          "Lower your water bills by eliminating hidden leaks",
+          "Protect your home's structural integrity",
+          "Identify and repair leaks quickly and accurately"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a hidden leak?",
+            "answer": "Common signs include unexplained increases in your water bill, water stains on walls or ceilings, mold growth, and a musty odor."
+          },
+          {
+            "question": "How can I tell if I have a slab leak?",
+            "answer": "Slab leaks can cause cracks in your foundation, damp spots on your floors, and a constant sound of running water. If you suspect a slab leak, it's important to call a professional plumber immediately."
+          },
+          {
+            "question": "What is thermal imaging?",
+            "answer": "Thermal imaging uses infrared technology to detect temperature differences, allowing us to identify hidden leaks behind walls and under floors."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair",
+        "name": "Pipe Repair & Repiping",
+        "shortDescription": "Reliable pipe repair and repiping services for lasting plumbing solutions.",
+        "description": "Damaged or corroded pipes can lead to leaks, low water pressure, and contaminated water. Big Joe's Plumbing offers comprehensive pipe repair and repiping services to ensure the integrity of your plumbing system. Whether you have a small leak or need to replace your entire plumbing system, our experienced plumbers can handle the job with precision and expertise. We use quality materials and proven techniques to provide lasting solutions. We work with all types of pipes, including copper, PVC, and PEX. We also offer trenchless pipe repair options to minimize disruption to your property. If you're experiencing frequent leaks, low water pressure, or rusty water, it may be time to consider repiping. We'll assess your plumbing system and recommend the most cost-effective and efficient solution, especially important for some of the older homes in Fresno.",
+        "process": [
+          "Step 1: Assess the Damage: We thoroughly inspect your pipes to identify the extent of the damage and determine the best course of action.",
+          "Step 2: Provide a Detailed Estimate: We offer clear, upfront pricing for all pipe repair and repiping services.",
+          "Step 3: Perform the Repair or Repiping: We use quality materials and proven techniques to ensure lasting results.",
+          "Step 4: Test and Verify: We ensure your plumbing system is functioning properly and safely before we leave."
+        ],
+        "benefits": [
+          "Eliminate leaks and improve water pressure",
+          "Prevent water damage and mold growth",
+          "Ensure clean and safe drinking water",
+          "Increase the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs that my pipes need repair?",
+            "answer": "Common signs include leaks, low water pressure, rusty water, and discolored pipes."
+          },
+          {
+            "question": "What is trenchless pipe repair?",
+            "answer": "Trenchless pipe repair is a method of repairing or replacing pipes without digging up your yard. It's a less disruptive and more cost-effective alternative to traditional pipe repair methods."
+          },
+          {
+            "question": "How long do pipes typically last?",
+            "answer": "The lifespan of pipes depends on the material. Copper pipes can last 50-70 years, while PVC pipes can last 50-100 years."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-plumbing",
+        "name": "24/7 Emergency Plumbing",
+        "shortDescription": "Fast, reliable emergency plumbing services when you need them most.",
+        "description": "Plumbing emergencies can strike at any time, causing significant damage and disruption. Big Joe's Plumbing offers 24/7 emergency plumbing services to address urgent plumbing issues quickly and effectively. Whether you have a burst pipe, a sewer backup, or a water heater failure, our experienced plumbers are available around the clock to provide immediate assistance. We understand the urgency of these situations and will respond promptly to minimize damage and restore your plumbing system. We're equipped to handle any type of plumbing emergency, from simple repairs to complex system failures. Don't hesitate to call Big Joe's Plumbing for fast, reliable emergency service. We're here to help, even in the middle of the night, especially during Fresno's unpredictable weather.",
+        "process": [
+          "Step 1: Immediate Response: We answer your call promptly and dispatch a plumber to your location as quickly as possible.",
+          "Step 2: Assess the Situation: We quickly assess the damage and determine the best course of action.",
+          "Step 3: Perform Emergency Repairs: We use our expertise to resolve the immediate plumbing issue and prevent further damage.",
+          "Step 4: Provide a Detailed Plan: We offer a comprehensive plan for long-term repairs and preventative measures."
+        ],
+        "benefits": [
+          "Fast, reliable service 24/7",
+          "Minimize damage from plumbing emergencies",
+          "Restore your plumbing system quickly and efficiently",
+          "Prevent further damage with expert repairs"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes a plumbing emergency?",
+            "answer": "Plumbing emergencies include burst pipes, sewer backups, water heater failures, and any other plumbing issue that poses an immediate threat to your property or safety."
+          },
+          {
+            "question": "How quickly will a plumber arrive?",
+            "answer": "We strive to arrive at your location within 60 minutes of your call, depending on traffic and our current workload."
+          },
+          {
+            "question": "What should I do while waiting for the plumber to arrive?",
+            "answer": "Turn off the water supply to the affected area, if possible. This will help minimize damage until the plumber arrives."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional fixture installation for kitchens, bathrooms, and more.",
+        "description": "Upgrading your plumbing fixtures can enhance the look and functionality of your kitchen and bathrooms. Big Joe's Plumbing offers professional fixture installation services for faucets, sinks, toilets, showers, and more. Our experienced plumbers will ensure that your new fixtures are properly installed and functioning flawlessly. We work with all types of fixtures and can handle any installation challenge. We'll also dispose of your old fixtures responsibly. Whether you're remodeling your home or simply replacing a worn-out fixture, Big Joe's Plumbing can provide expert installation services. We'll handle the entire process, from removing the old fixture to connecting the new one, ensuring a seamless and hassle-free experience, particularly relevant for older homes in neighborhoods like the Tower District.",
+        "process": [
+          "Step 1: Remove the Old Fixture: We carefully remove your old fixture without damaging surrounding surfaces.",
+          "Step 2: Prepare the Area: We ensure the area is properly prepared for the new fixture.",
+          "Step 3: Install the New Fixture: We install the new fixture according to manufacturer specifications.",
+          "Step 4: Test and Verify: We ensure the new fixture is functioning properly and free of leaks."
+        ],
+        "benefits": [
+          "Enhance the look and functionality of your kitchen and bathrooms",
+          "Ensure proper installation and reliable performance",
+          "Increase the value of your home",
+          "Enjoy a seamless and hassle-free installation experience"
+        ],
+        "faq": [
+          {
+            "question": "What types of fixtures do you install?",
+            "answer": "We install all types of plumbing fixtures, including faucets, sinks, toilets, showers, bathtubs, and more."
+          },
+          {
+            "question": "Can you help me choose the right fixtures?",
+            "answer": "Yes, we can provide expert advice on selecting the right fixtures for your needs and budget."
+          },
+          {
+            "question": "Do you offer a warranty on your fixture installation services?",
+            "answer": "Yes, we offer a warranty on our workmanship to ensure your satisfaction."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Fresno",
+        "slug": "fresno-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing is proud to serve the residents and businesses of Fresno, CA. As a cornerstone of the Central Valley, Fresno demands reliable plumbing services, and we are committed to providing top-notch solutions for all your plumbing needs. From routine maintenance and repairs to complex installations and emergency services, our team is equipped to handle it all.\n\nWe understand the unique plumbing challenges faced by Fresno homeowners, from hard water issues to aging infrastructure. That's why we use only the highest quality materials and employ the latest techniques to ensure lasting results. Trust Big Joe's Plumbing to keep your plumbing system running smoothly.",
+        "localContext": "Fresno is known for its agricultural heritage, vibrant arts scene, and diverse community. We understand the needs of Fresno residents and businesses.",
+        "nearbyAreas": [
+          "Clovis",
+          "Sanger",
+          "Selma"
+        ]
+      },
+      {
+        "city": "Clovis",
+        "slug": "clovis-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing extends its expert plumbing services to the charming community of Clovis, CA. Known for its family-friendly atmosphere and strong sense of community, Clovis deserves plumbing services that are both reliable and affordable. We offer a full range of services, from leak detection and repair to water heater installation and drain cleaning.\n\nWe are dedicated to providing Clovis residents with exceptional customer service and quality workmanship. Our experienced technicians are familiar with the specific plumbing needs of homes and businesses in Clovis, ensuring that every job is done right the first time.",
+        "localContext": "Clovis is a family-oriented community with a strong emphasis on education and outdoor recreation. We are proud to serve the residents of Clovis.",
+        "nearbyAreas": [
+          "Fresno",
+          "Sanger",
+          "Madera"
+        ]
+      },
+      {
+        "city": "Sanger",
+        "slug": "sanger-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing is pleased to offer our comprehensive plumbing services to the residents of Sanger, CA. As a growing community in the heart of the Central Valley, Sanger requires dependable plumbing solutions, and we are here to provide them. We handle everything from simple faucet repairs to complex sewer line replacements.\n\nWe understand the importance of prompt and efficient service, especially when dealing with plumbing emergencies. That's why we offer 24/7 emergency services to Sanger residents, ensuring that you can always count on us when you need us most.",
+        "localContext": "Sanger, known as the \"Nation's Christmas Tree City,\" is a vibrant community with a rich agricultural history. We are committed to serving the plumbing needs of Sanger.",
+        "nearbyAreas": [
+          "Fresno",
+          "Clovis",
+          "Selma"
+        ]
+      },
+      {
+        "city": "Selma",
+        "slug": "selma-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing proudly serves the community of Selma, CA, providing reliable and affordable plumbing services to homeowners and businesses alike. Selma's unique character and friendly atmosphere make it a great place to live and work, and we're dedicated to ensuring that your plumbing systems are functioning optimally.\n\nFrom routine maintenance to emergency repairs, our team of skilled plumbers is equipped to handle any plumbing challenge. We're committed to providing exceptional customer service and building lasting relationships with our clients in Selma.",
+        "localContext": "Selma is a close-knit community known for its agricultural heritage and friendly residents. We are dedicated to serving the plumbing needs of Selma.",
+        "nearbyAreas": [
+          "Fresno",
+          "Sanger",
+          "Kingsburg"
+        ]
+      },
+      {
+        "city": "Madera",
+        "slug": "madera-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing extends its professional plumbing services to the city of Madera, CA. As a vital agricultural hub, Madera requires reliable plumbing solutions for both residential and commercial properties. We offer a complete range of services, including drain cleaning, water heater repair, and sewer line inspection.\n\nWe are committed to providing Madera residents with exceptional customer service and quality workmanship. Our experienced technicians are familiar with the specific plumbing needs of homes and businesses in Madera, ensuring that every job is completed to the highest standards.",
+        "localContext": "Madera is a thriving agricultural community known for its vineyards and orchards. We understand the needs of Madera residents and businesses.",
+        "nearbyAreas": [
+          "Chowchilla",
+          "Fresno",
+          "Kerman"
+        ]
+      },
+      {
+        "city": "Kerman",
+        "slug": "kerman-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing is pleased to offer our expert plumbing services to the residents and businesses of Kerman, CA. As a growing community in Fresno County, Kerman deserves dependable and affordable plumbing services, and we're committed to providing them. We handle everything from leaky faucets to complete plumbing system installations.\n\nWe understand the importance of prompt and reliable service, especially when dealing with plumbing emergencies. That's why we offer 24/7 emergency services to Kerman residents, ensuring that you can always count on us when you need us most.",
+        "localContext": "Kerman is a vibrant community known for its agricultural industry and friendly atmosphere. We are proud to serve the plumbing needs of Kerman.",
+        "nearbyAreas": [
+          "Fresno",
+          "Madera",
+          "Mendota"
+        ]
+      },
+      {
+        "city": "Kingsburg",
+        "slug": "kingsburg-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing proudly serves the \"Swedish Village\" of Kingsburg, CA. We understand the unique charm and needs of this community and are committed to providing top-quality plumbing services to its residents and businesses. Whether it's a minor repair or a major installation, we're here to help.\n\nOur experienced plumbers are equipped to handle any plumbing issue you may encounter. We pride ourselves on our professionalism, reliability, and dedication to customer satisfaction. Trust Big Joe's Plumbing for all your plumbing needs in Kingsburg.",
+        "localContext": "Kingsburg is known for its Swedish heritage, charming downtown, and annual Swedish Festival. We appreciate the unique character of Kingsburg.",
+        "nearbyAreas": [
+          "Selma",
+          "Reedley",
+          "Fowler"
+        ]
+      },
+      {
+        "city": "Reedley",
+        "slug": "reedley-ca",
+        "state": "CA",
+        "content": "Big Joe's Plumbing is your trusted plumbing partner in Reedley, CA. We are dedicated to providing the residents and businesses of Reedley with exceptional plumbing services at affordable prices. From routine maintenance to emergency repairs, we've got you covered.\n\nOur team of skilled plumbers is committed to delivering quality workmanship and superior customer service. We understand the importance of a properly functioning plumbing system and strive to ensure that your plumbing needs are met with efficiency and professionalism. Count on Big Joe's Plumbing in Reedley.",
+        "localContext": "Reedley is known as the \"World's Fruit Basket\" due to its abundant agricultural production. We are proud to serve the community of Reedley.",
+        "nearbyAreas": [
+          "Dinuba",
+          "Sanger",
+          "Kingsburg"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Water Heater Repair",
+        "text": "Our water heater went out on a Sunday morning, and Big Joe's Plumbing was the only place that answered. They were at our house within an hour and had it fixed quickly. Great service!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David S.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "Had a clogged kitchen sink that I couldn't clear myself. Big Joe's came out and used a snake to get it flowing again. Price was fair, and the plumber was professional.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Lisa K.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "We suspected a leak, and Big Joe's found it quickly using some kind of camera. They fixed the pipe and saved us from a potentially huge water bill. Highly recommend!",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "Robert B.",
+        "rating": 5,
+        "service": "Toilet Installation",
+        "text": "Needed a new toilet installed in our guest bathroom. The plumber from Big Joe's was on time, efficient, and did a great job. We're very happy with the service.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Jennifer A.",
+        "rating": 4,
+        "service": "Pipe Repair",
+        "text": "Had a leaky pipe under our sink. They were able to fix it quickly and at a reasonable price. Would definitely use them again.",
+        "date": "2024-12-20"
+      },
+      {
+        "name": "Michael T.",
+        "rating": 5,
+        "service": "Emergency Plumbing",
+        "text": "Our main water line broke late at night. Big Joe's Plumbing responded immediately and stopped the flooding. They were lifesavers!",
+        "date": "2025-05-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Big Joe's Plumbing: Fresno Plumbers",
+        "description": "Fresno's trusted plumbers. Expert repairs, installations, and 24/7 emergency service. Upfront pricing and guaranteed work."
+      },
+      "about": {
+        "title": "About Big Joe's Plumbing | Fresno, CA",
+        "description": "Learn about Big Joe's Plumbing, Fresno's leading plumbing experts. Honest, reliable service with a commitment to the community."
+      },
+      "services": {
+        "title": "Plumbing Services | Big Joe's Plumbing",
+        "description": "Comprehensive plumbing services in Fresno. Drain cleaning, water heaters, leak detection, pipe repair, and more."
+      },
+      "contact": {
+        "title": "Contact Big Joe's Plumbing | Fresno",
+        "description": "Contact Big Joe's Plumbing for fast, reliable plumbing service in Fresno. Get a free estimate today!"
+      },
+      "reviews": {
+        "title": "Big Joe's Plumbing Reviews | Fresno, CA",
+        "description": "Read reviews from satisfied Big Joe's Plumbing customers in Fresno. See why we're the trusted choice for plumbing services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Big Joe's Plumbing",
+        "description": "Big Joe's Plumbing serves Fresno and surrounding areas. Expert plumbing services you can rely on."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 15,
+      "projectsCompleted": "1200+",
+      "satisfaction": "98%",
+      "teamSize": "25+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "pipe-repair": "/images/service-pipe-repair.webp",
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp"
+    },
+    "servicesResponsive": {
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair": {
+        "src": "/images/service-pipe-repair.webp",
+        "srcset": "/images/service-pipe-repair-400w.webp 400w, /images/service-pipe-repair-800w.webp 800w, /images/service-pipe-repair-1200w.webp 1200w, /images/service-pipe-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
